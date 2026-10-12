@@ -1,0 +1,32 @@
+# 纽联国际 robots.txt
+# 默认允许所有搜索引擎抓取公开页面。
+User-agent: *
+Allow: /
+
+# AI 爬虫。建议开放：网站的 GEO 目标就是让 AI 助手准确引用公司信息。
+# 如果客户决定不开放，把对应的 "Allow: /" 改成 "Disallow: /"。
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://nutrading.ca/sitemap.xml
